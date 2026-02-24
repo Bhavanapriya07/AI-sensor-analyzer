@@ -1,11 +1,10 @@
  **AI SENSOR ANALYZER**
-AI Sensor Analyzer is a web-based AI tool that analyzes industrial sensor logs to automatically detect abnormal readings and generate human-readable diagnostic explanations.
+ AI Sensor Analyzer is a web-based AI tool that analyzes industrial sensor logs to automatically detect abnormal readings and generate human-readable diagnostic explanations.
 
  **Live Demo:**
 https://ai-sensor-analyzer-lygrectnegbdkvzs4yypea.streamlit.app/
 
  **Features**
-
 * Upload CSV sensor logs
 * Automatic anomaly detection using Isolation Forest
 * AI-generated engineering explanation of abnormal readings
@@ -16,7 +15,6 @@ https://ai-sensor-analyzer-lygrectnegbdkvzs4yypea.streamlit.app/
 
 
 **System Architecture**
-
 1. User uploads CSV sensor data
 2. Pandas processes and cleans dataset
 3. Isolation Forest detects anomalies
@@ -27,7 +25,6 @@ https://ai-sensor-analyzer-lygrectnegbdkvzs4yypea.streamlit.app/
 
 
 **Tech Stack**
-
 * Python
 * Streamlit
 * Pandas
@@ -36,23 +33,17 @@ https://ai-sensor-analyzer-lygrectnegbdkvzs4yypea.streamlit.app/
 * Requests
 
  **How to Run Locally**
-
 1. Clone the repo:
-
- git clone https://github.com/YOURUSERNAME/AI-sensor-analyzer.git
-
- cd AI-sensor-analyzer
+git clone https://github.com/YOURUSERNAME/AI-sensor-analyzer.git
+cd AI-sensor-analyzer
 
 2. Install dependencies:
-
 pip install -r requirements.txt
 
 3. Create .env file:
-
 OPENROUTER\_API\_KEY=your\_key\_here
 
 4. Run the app:
-
 streamlit run app.py
 
  **Use Cases**
@@ -63,9 +54,6 @@ streamlit run app.py
 * Predictive maintenance workflows
 
 
-
 ###  **Author**
 Bhavana Priya P K
-Instrumentation \& Control Engineering
-Interested in AI, automation, aerospace systems, and IoT
 
